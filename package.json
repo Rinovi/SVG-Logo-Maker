@@ -1,0 +1,23 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "An application that prompts the user to select a color, shape, and some text, then, generates an SVG Logo based off the input.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
